@@ -1,0 +1,229 @@
+@media (max-width: 1920px) {
+  .header__nav {
+    margin-left: auto;
+  }  
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    height: 138px;
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  h2 {
+    padding-top: 58px;    
+  }
+
+  .container {
+    padding: 0 50px;
+  }
+
+  .header__burger {
+    display: inline-block;
+  }
+
+  .header__logo {
+    padding: 30px 0 22px 0;
+  }
+
+  .header__logo svg {
+    width: 150px;
+    height: 48px;
+  } 
+
+  .header__search {
+    margin: 42px 0 35px 0;
+  }
+  
+  .header__nav {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    background: url(../img/balconies-tablet.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .hero__container {
+    padding: 160px 0 15px 45px;
+  }
+
+  .hero-container__span {
+    margin-top: 18px;
+    margin-bottom: 110px;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+  }
+
+  .hero-container__slider {
+    display: block;
+  }
+
+  .about__span {
+    display: none;
+  }
+
+  .about__span-tablet {
+    display: block;
+  }
+
+  .advantages {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .advantages__left {
+    width: 100%;
+    min-height: 640px;
+    margin-left: 0;
+  }
+
+  .advantages-left__span {
+    margin: 38px 0 40px 44px;
+  }
+
+  .advantages-left__button {
+    margin-left: 162px;
+  }
+
+  .advantages__right {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 50px;	
+  }
+
+  .advantages-right__list {
+    display: block;
+    width: 100%;
+  }
+
+  .advantages-right__item:first-child {
+    margin-bottom: 40px;
+  } 
+  
+  .advantages-item__article {
+    padding: 65px 0 64px 112px;
+  }
+
+  .advantages-item__img {
+    margin-top: 10px;
+  }
+
+  .advantages-item__svg1 {
+    padding-top: 5px;
+  }
+
+  .advantages-item__text {	
+    margin-left: 112px;
+  }
+
+  .stages {
+    width: 100%;
+  }
+
+  .stages__header {
+    padding-top: 58px;
+    margin-left: -5px;
+  } 
+
+  .stages__nav {
+    display: flex;
+    margin-top: 48px;
+  }
+
+  .stages-step__block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+
+  .stages__left,
+  .stages__right {
+    width: 437px;
+  }
+
+  .stages__span {
+    display: none;
+  }
+
+  .stages__span_tablet {
+    display: inline-block;
+  }
+
+  .stages__buttons {
+    margin-top: 29px;
+  }
+
+  .stages__right {
+    height: 689px;
+    margin-left: 0;
+
+  }
+
+  .stages-right__img {
+    display: none;
+  }
+
+  .stages-right__img-tablet {
+    display: block;
+    width: 100%;
+    height: 689px;
+    object-fit: cover;
+  } 
+
+  .questions {
+    width: 100%;
+  } 
+
+  .qestions__header {
+    padding-bottom: 8px;
+  }
+
+  .questions__list {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  .questions__item {
+    padding: 0;
+  }
+
+  .questions__line {
+    margin: 0;
+  }
+
+  .questions-item__header {
+    font-size: 20px;
+    padding: 22px 0 20px 0;
+  }
+
+  .footer__center {
+    max-width: 534px;
+    margin-left: 135px;
+  }
+
+  .footer-form__input {
+    width: 534px;
+  }
+  
+  .footer-form__textarea {
+    width: 534px;
+  }
+
+  .footer-form__button {
+    padding: 20px 38px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer__right {
+    display: none;
+  }
+}
