@@ -164,18 +164,7 @@
   .stages__right {
     height: 689px;
     margin-left: 0;
-
-  }
-
-  .stages-right__img {
-    display: none;
-  }
-
-  .stages-right__img-tablet {
-    display: block;
-    width: 100%;
-    height: 689px;
-    object-fit: cover;
+    background: url(../img/Rectangle18tabl.jpg);
   } 
 
   .questions {
@@ -207,15 +196,15 @@
 
   .footer__center {
     max-width: 534px;
-    margin-left: 135px;
+    margin-left: 25px;
   }
 
   .footer-form__input {
-    width: 534px;
+    width: 100%;
   }
   
   .footer-form__textarea {
-    width: 534px;
+    width: 100%;
   }
 
   .footer-form__button {
