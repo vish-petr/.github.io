@@ -113,14 +113,14 @@ span {
 }
 
 .header__logo {
-	margin: 16px 0 14px 0;
+	margin: 14px 0 14px 0;
 	padding: 0;
 }
 
 .header__nav {
 	height: 22px;
 	margin-left: 630px;
-	padding-top: 45px;
+	padding-top: 42px;
 }
 
 .header-nav__list {
@@ -323,7 +323,8 @@ span {
 .hero__container {	
 	position: relative;
 	display: block;
-	margin: 0 300px 0 78px;
+	width: fit-content;
+	margin: 0 0 0 78px;
 	z-index: 2;	
 	color: #fff;
 }
@@ -432,7 +433,7 @@ span {
 	justify-content: space-between;
 	width: 100%;
 	min-height: 620px;
-	margin-top: 42px;
+	margin-top: 44px;
 	padding: 0;
 }
 
@@ -874,7 +875,7 @@ span {
 	justify-content: space-between;
 	align-items: center;
 	margin: 0;
-	padding: 38px 0 31px 2px;		
+	padding: 31px 0 31px 2px;		
 	font-family: "montserrat-bold";
 	font-size: 24px; 
 }
