@@ -1,0 +1,865 @@
+@media (min-width: 1921px) {
+  .header__nav {
+    margin-left: 0;
+    margin-right: 220px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin: 0 auto;
+  }
+
+  .hero-container__span {
+    margin: 32px auto 97px auto;
+  }
+  
+  .hero-container__button {
+    margin: 0 auto;
+  }
+  
+  .about {
+    display: flex;
+    justify-content: center;
+  }
+
+  .advantages-left__info {
+    justify-content: center;
+  }
+  
+  .advantages-item__article {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stages__header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .qestions__header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1920px) {
+  .header__nav {
+    margin-left: auto;
+  } 
+  
+  .hero,
+  .hero__container {
+    display: block;
+  }
+
+  .footer__right {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  h1 {
+    height: 138px;
+    margin-bottom: 0;
+    font-size: 60px;
+    line-height: 73px;
+  }
+
+  h2 {
+    padding-top: 58px;    
+  }
+
+  .container {
+    padding: 0 50px 0 39px;
+  }
+
+  .header__burger {
+    display: inline-block;
+  }
+
+  .header__logo {
+    margin: 32px auto 22px auto;
+    padding-left: 23px;
+  }
+
+  .header__logo svg {
+    width: 150px;
+    height: 48px;
+  } 
+
+  .header__search {
+    margin: 45px 0 35px 0;
+  }
+  
+  .header__nav {
+    display: none;
+  }
+
+  .hero {
+    width: 100%;
+    padding: 160px 0 114px 0;
+  }
+
+  .hero__container {
+    width: fit-content;
+    margin: 0 170px 0 45px;
+  }
+
+  .hero-container__span {
+    margin-top: 18px;
+    margin-bottom: 110px;
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+  }
+
+  .about__span {
+    display: none;
+  }
+
+  .about__span-tablet {
+    display: block;
+  }
+
+  .advantages {
+    display: inline-block;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .advantages__left {
+    width: 100%;
+    height: 640px;
+    margin-left: 0;
+  }
+
+  .advantages-left__span {
+    min-width: 500px;
+    margin: 38px 0 40px 44px;
+  }
+
+  .advantages-left__button {    
+    margin-right: 50px;
+    margin-left: auto;
+  }
+
+  .advantages__right {
+    display: inline-block;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 50px;	
+  }
+
+  .advantages-right__list {
+    display: block;
+    width: 100%;
+  }
+
+  .advantages-right__item:first-child {
+    margin-bottom: 40px;
+  } 
+  
+  .advantages-item__article {
+    padding: 65px 0 64px 112px;
+  }
+
+  .advantages-item__img {
+    margin-top: 10px;
+  }
+
+  .advantages-item__svg1 {
+    padding-top: 5px;
+  }
+
+  .advantages-item__text {	
+    margin-left: 112px;
+  }
+
+  .stages {
+    width: 100%;
+  }
+
+  .stages__header {
+    padding-top: 58px;
+    margin-left: -5px;
+  } 
+
+  .tabs {
+    display: flex;
+    margin-top: 48px;
+  }
+
+  .tabs-content-active {
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+
+  .stages__left,
+  .stages__right {
+    width: 437px;
+  }
+
+  .stages__span {
+    display: none;
+  }
+
+  .stages__span_tablet {
+    display: inline-block;
+  }
+
+  .stages__buttons {
+    margin-top: 29px;
+  }
+
+  .stages__right {
+    height: 689px;
+    margin-left: 0;
+  } 
+
+  .questions {
+    width: 100%;
+  } 
+
+  .qestions__header {
+    padding-bottom: 8px;
+  }
+
+  .questions__list {
+    width: 100%;
+    margin: 0;
+    padding: 30px 0 0 0;
+  }
+
+  .questions__item {
+    padding: 0;
+  }
+
+  .questions-item__header {
+    font-size: 20px;
+  }
+
+  .questions__block {    
+    padding: 40px 0 30px 0;
+  }
+
+  .footer__center {
+    max-width: 534px;
+    margin-left: 25px;
+  }
+
+  .footer-form__input {
+    width: 100%;
+  }
+  
+  .footer-form__textarea {
+    width: 100%;
+  }
+
+  .footer-form__button {
+    padding: 20px 32px;
+    letter-spacing: 0.4px;
+  }
+
+  .footer__right {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0;
+  }
+
+  .header__container {
+    padding: 0 52px 0 40px;
+  }
+
+  .menu {
+    width: 300px;
+  }
+
+  .header__burger {
+    margin: 25px 0 6px 5px;
+  }
+  
+  .header__logo {
+    margin: 31px 0 8px 10px;
+  }
+
+  .header__search {
+    margin-bottom: 20px;
+    margin-left: 13px;
+  }
+
+  .about,
+  .advantages,
+  .stages,
+  .questions {
+    padding: 0 52px 0 48px;
+  }
+
+  .about__span-tablet {
+    display: none;
+  }
+
+  .about__span-tablet_album {
+    display: inline-block;
+  }
+
+  .advantages__left {
+    width: 100%;
+    height: 648px;
+  }
+
+  .advantages-left__span {
+    display: none;
+  }
+  
+  .advantages-left__span-tablet_album {
+    display: inline-block;
+  }
+
+  .advantages-left__button { 
+    margin: 0 30px 0 40px; 
+  }
+
+  .advantages__right {
+    margin-top: 41px;
+  }
+
+  .advantages-right__item {
+    width: 100%;
+    min-height: 235px;
+  }
+
+  .advantages-item__article {
+    padding: 32px 25px 28px 28px;
+  }
+
+  .advantages-item__img {
+    display: none;
+  }
+
+  .advantages-item__img-tablet {
+    position: relative;
+    display: inline-block;
+  } 
+  
+  .advantages-item__text {
+    margin-left: 65px;
+  }
+
+  .avdantages-article__span {	
+    line-height: 33px;
+  }
+
+  .stages__header {
+    margin-top: 58px;
+    padding-top: 0;
+  }
+
+  .tabs__item:not(:last-child) {
+    margin-right: 155px auto;
+  }
+
+  .tabs-content-active {
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .stages__left {
+    width: 100%;
+    margin-top: 38px;
+  }
+
+  .stages__span-768 {
+    display: inline-block;
+  }
+
+  .stages__right{
+    width: 100%;
+    height: 284px;
+    margin-top: 45px;
+    padding: 0;
+  }
+
+  .qestions__header {
+    padding: 58px 45px 0 48px;
+    letter-spacing: -0.8px;
+    display: inline-block;
+  }
+
+  .questions__list {
+    padding: 38px 52px 0 48px;
+  }
+
+  .questions__block {
+    padding: 33px 0 22px 0;
+  }
+
+  .questions-item__header {
+    max-width: 520px;
+  }
+
+  .footer__container {
+    display: none;
+  }
+
+  .footer__container-768 {
+    display: inline-block;
+  }
+
+  .footer__center {
+    margin-left: 0;
+  }
+
+  .footer__social {
+    margin: 10px 0 58px 0;
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 696px) {
+  h2 {
+    margin: 0;
+    padding-top: 39px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .header__container {
+    flex-direction: row-reverse;
+  }
+
+  .container {
+    padding: 0 15px;
+  } 
+
+  .header__search {
+    display: none;
+  }
+
+  .header__logo {
+    margin: 7px 0 3px 0;
+    padding-left: 0;
+  }
+
+  .header__logo svg {
+    width: 97px;
+    height: 31px;
+  } 
+
+  .menu {
+    right: 0;
+    left: auto;
+    width: 200px;
+    height: 307px;
+  }
+
+  .menu.is-active {
+    transform: translateY(-101%);	
+  }
+
+  .header-burger-menu__span {
+    width: 19px;
+    height: 19px;
+    margin: 13px 15px 0 auto;
+    background-size: contain;
+  }
+
+  .header-burger-menu__list {
+    margin: 34px 0 0 0;
+    padding: 0 0 0 61px;
+  }
+
+  .header-burger-menu__item:not(:last-child) {
+    margin-bottom: 19px;
+  }
+
+  .header-burger-menu__link {
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .header__burger {
+    margin: 7px 0 3px 0;
+  } 
+
+  .header__burger svg {
+    width: 25px;
+    height: 19px;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+
+  .hero__container { 
+    position: absolute;
+    top: 32px;
+    left: 28px;
+    margin: 0 auto;   
+    text-align: center;
+    color: #fff;
+  }    
+
+  h1 {
+    display: inline-block;
+    max-width: 247px;
+    height: 49px;
+    font-family: "montserrat-extrabold";
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .hero-container__span {
+    display: none;
+  }
+
+  .hero-container__span320 {
+    display: block;
+  }
+
+  .hero-container__button {
+    margin-top: 35px;
+    padding: 11px 27px 14px 27px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    background: #ff9900;
+  }
+
+  .about,
+  .advantages,
+  .stages,
+  .questions {
+    padding: 0;
+  }
+
+  .about__header {
+    padding-top: 28px;
+  }
+
+  .about__span-tablet_album {
+    display: none;
+  }
+
+  .about__span320 {
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 2px;
+  }
+
+  .about-span__info {
+    margin: 3px 0 3px 0;
+  }
+
+  .advantages {
+    margin-top: 11px;
+  }
+
+  .advantages__left {
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/Rectangle2.jpg);
+	  background-position: center;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+  }
+
+  .advantages-left__info {
+    display: none;
+  }
+
+  .advantages-left__info320 {
+    display: block;
+  }
+
+  .advantages-left__button {    
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 9px 41px 12px 41px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #FF9900;
+    border: 3px solid #FF9900;
+	  box-sizing: border-box;
+  }  
+
+  .advantages-right__item {
+    min-height: 200px;
+    border: none;
+    box-sizing: border-box;
+  }
+
+  .advantages-right__item:first-child {
+    margin-bottom: 28px;
+  }  
+
+  .advantages-item__article {
+    padding: 5px 0 0 0;
+  }
+
+  .advantages-item__img-tablet {
+    display: none;
+  }
+
+  .advantages-item__img320 {
+    display: block;
+  }
+
+  .advantages-item__text {
+    margin: 10px 0 0 0;
+  }
+
+  .advantages-article__header {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+
+  .avdantages-article__span {
+    display: none;
+  }
+
+  .avdantages-article__span320 {
+    display: block;
+  }
+
+  .stages__header {
+    margin-top: 47px;
+    padding-left: 4px;
+  }
+
+  .tabs {
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  .tabs__btn {
+    font-size: 14px;
+  }
+
+  .tabs__item:not(:last-child) {
+    margin-right: auto;
+  }
+
+  .tabs__item {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .tabs-content {
+    margin-top: 0;
+  }
+
+  .stages__right{
+    height: 160px;
+    margin-top: 0;
+    background-size: cover;
+  }
+  
+  .stages__left {
+    margin-top: 6px;
+  }
+  
+  .tabs-item__header {
+    margin-bottom: 0;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+  }
+
+  .stages__span_tablet {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .stages__buttons {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  .stages__button,
+  .stages__btn-contract {
+    font-size: 11px;
+    letter-spacing: 0.9px;
+  }
+
+  .stages__button {
+    padding: 8px 44px 12px 44px;
+  }
+
+  .stages__btn-contract {
+    margin-left: 6px;
+    padding: 11px 28px 14px 32px;
+  }
+
+  .qestions__header {
+    padding: 39px 45px 0 0;
+    letter-spacing: -0.1px;
+  }
+
+  .questions__list {
+    padding: 14px 0 0 0;
+  }
+
+  .questions__item {
+    padding-left: 0;
+  }
+
+  .questions__block {
+    padding: 20px 0 23px 0;
+  }
+
+  .questions-item__header {
+    width: 231px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;    
+    line-height: 24px;
+    letter-spacing: 0.1px;
+  }
+
+  .questions-item__header4 {
+    width: 230px;
+  }
+
+  .ui-accordion .ui-accordion-header {
+    padding: 20px 0 23px 0;	
+  }
+
+  .questions__answer {
+    min-width: unset;
+    max-width: 30px;
+    height: 30px;
+    margin-top: 1px;
+  }
+
+  .questions-item__circle {
+    width: 30px;
+    height: 30px;    
+	  background-size: contain;
+  }
+
+  .footer__container-768 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 39px;
+    padding: 39px 15px 25px 14px;
+  }
+
+  .footer__center {
+    padding: 0;
+  }
+
+  .footer__form {
+    padding: 21px 0 0 1px;
+  }
+
+  .footer-form__input,
+  .footer-form__textarea {
+    margin-bottom: 25px;
+    padding: 14px 0 14px 20px;
+    font-size: 14px;
+    color: #cacaca;
+  }
+
+  .footer-form__textarea {
+    margin-bottom: 0;
+  }
+
+  .footer-form__bottom {
+    flex-direction: column;
+    margin-top: 20.5px;
+    padding-bottom: 29px;    
+    border-bottom: 1px solid  #595959;     
+  }
+
+  .footer-form__button {
+    padding: 11px 28px 10px 28px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+  }
+
+  .footer__concent {
+    margin: 18px 0 0 0;
+  }
+
+  .footer__logo768 {
+    width: 131px;
+    height: 42px;
+    margin-top: 23px;
+    padding-left: 1px;
+  }
+
+  .footer__social {
+    margin-top: 16px;
+  }
+
+  .footer-social__item {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-social__item:not(:first-child) {
+    margin-left: 14px;
+  }
+
+  .footer-social__link {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-social__fb,
+  .footer-social__vk {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer-social__inst {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social-inst__inst1 {
+    width: 35px;
+    height: 35px 
+  }
+
+  .social-inst__inst2 {
+    top: 9px;
+    left: 9.5px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .social-inst__inst3 {
+    top: 13.5px;
+    left: 14px;
+    width: 7px;
+    height: 7px;
+  }
+}
