@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style/normalize.css">  
+  <link rel="stylesheet" type="text/css" href="style/choices.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/> 
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+  </script>
+  <title>Interactive</title>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <section class="custom-checkbox">
+        <h2>Категории:</h2>
+        <label class="checkbox" for="dino">
+          <input type="checkbox" class="checkbox__input" id="dino" checked>
+          <span class="checkbox__span">Динозавры</span> 
+        </label>
+        <label class="checkbox" for="bears">                  
+          <input type="checkbox" class="checkbox__input" id="bears">
+          <span class="checkbox__span">Медведи</span>
+        </label>  
+        <label class="checkbox" for="roedeers"> 
+          <input type="checkbox" class="checkbox__input" id="roedeers">
+          <span class="checkbox__span">Косули</span>
+        </label>
+        <label class="checkbox" for="foxes">   
+          <input type="checkbox" class="checkbox__input" id="foxes">
+          <span class="checkbox__span">Лисы</span>
+        </label>
+        <label class="checkbox" for="wolves">   
+          <input type="checkbox" class="checkbox__input" id="wolves">
+          <span class="checkbox__span">Волки</span>
+        </label>
+        <label class="checkbox" for="deersmoosses">   
+          <input type="checkbox" class="checkbox__input" id="deersmoosses">
+          <span class="checkbox__span">Олени и лоси</span>
+        </label>
+      </section>  
+
+      <section class="custom__select">
+        <h2 class="hidden-heading">.</h2>
+        <select name="select" class="select">
+          <option>Материал</option>          
+          <option>Древесина</option>
+          <option>Металл</option>
+          <option>Камень</option>
+          <option>Пластик</option>
+          <option>Композитный</option>
+          <option>Гипс</option>   
+        </select>
+      </section>
+      
+      <section class="map">
+        <h2 class="hidden-heading">.</h2>
+        <div id="map" class="map__container"></div>
+      </section>
+
+      <section class="custom-scroll">
+        <div class="scroll" data-simplebar>
+          <p class="scroll__text">
+            Сложно сказать, почему многие известные
+            личности представлены в исключительно
+            положительном свете. Лишь активно
+            развивающиеся страны третьего мира будут
+            объективно рассмотрены соответствующими
+            инстанциями. Мы вынуждены отталкиваться от
+            того, что высокотехнологичная концепция
+            общественного уклада представляет собой
+            интересный эксперимент проверки
+            глубокомысленных рассуждений. Имеется
+            спорная точка зрения, гласящая примерно
+            следующее: непосредственные участники
+            технического прогресса освещают чрезвычайно
+            интересные особенности картины в целом,
+            однако конкретные выводы, разумеется,
+            обнародованы. Значимость этих проблем
+            настолько очевидна, что
+            социально-экономическое развитие, а также
+            свежий взгляд на привычные вещи - безусловно
+            открывает новые горизонты для
+            первоочередных требований.
+          </p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <form action="" class="form">
+          <label for="Имя" class="form__label">
+            <input class="form__input" type="text" name="Имя" placeholder="Имя*" data-validate-field="name">
+          </label>
+          <label for="" class="form__label">
+            <input class="form__input" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel" data-validate-rules="phone">      
+          </label>
+          <label for="" class="form__label">
+            <input class="form__input" type="email" name="email" placeholder="E-mail*" data-validate-field="mail">
+          </label>             
+          <button class="form__button" type="submit">Заказать</button>
+        </form>
+      </section> 
+      
+      <section class="tooltip-section">
+        <p class="tooltip-section__text">
+          Следует отметить, что <br>
+          социально-экономическое развитие <br>
+          способствует повышению качества <br>
+          переосмысления <br>
+          внешнеэкономических политик.
+          <button class="tooltip__btn" aria-describedby="tltp">
+            <span class="tooltip">       
+              <span class="tooltip__text" role="tooltip" id="tltp">
+                Глава 2, страница 176
+              </span>
+            </span>
+          </button>           
+        </p>
+      </section>
+      
+    </div>
+  </main>
+  <script src="js/choices.min.js"></script>
+  <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+  <script src="js/just-validate.min.js"></script>
+  <script src="js/inputmask.min.js"></script>
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
