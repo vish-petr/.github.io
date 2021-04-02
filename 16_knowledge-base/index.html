@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +8,14 @@
   <link rel="stylesheet" type="text/css" href="style/choices.min.css">
   <link rel="stylesheet" href="https://unpkg.com/simplebar@latest/dist/simplebar.css"/> 
   <link rel="stylesheet" type="text/css" href="style/style.css">
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU">
   </script>
   <title>Interactive</title>
 </head>
 <body>
   <main>
     <div class="container">
+
       <section class="custom-checkbox">
         <h2>Категории:</h2>
         <label class="checkbox" for="dino">
@@ -62,6 +63,7 @@
       </section>
 
       <section class="custom-scroll">
+        <h2 class="hidden-heading">.</h2>
         <div class="scroll" data-simplebar>
           <p class="scroll__text">
             Сложно сказать, почему многие известные
@@ -90,21 +92,23 @@
       </section>
 
       <section class="form-section">
-        <form action="" class="form">
-          <label for="Имя" class="form__label">
-            <input class="form__input" type="text" name="Имя" placeholder="Имя*" data-validate-field="name">
+        <h2 class="hidden-heading">.</h2>
+        <form action="https://jsonplaceholder.typicode.com/posts" class="form">
+          <label for="name" class="form__label">
+            <input id="name" class="form__input" type="text" name="name" placeholder="Имя*" data-validate-field="name">
           </label>
-          <label for="" class="form__label">
-            <input class="form__input" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel" data-validate-rules="phone">      
+          <label for="tel" class="form__label">
+            <input id="tel" class="form__input" type="tel" name="tel" placeholder="Телефон*" data-validate-field="tel" data-validate-rules="phone">      
           </label>
-          <label for="" class="form__label">
-            <input class="form__input" type="email" name="email" placeholder="E-mail*" data-validate-field="mail">
+          <label for="email" class="form__label">
+            <input id="email" class="form__input" type="email" name="email" placeholder="E-mail*" data-validate-field="mail">
           </label>             
           <button class="form__button" type="submit">Заказать</button>
         </form>
       </section> 
       
       <section class="tooltip-section">
+        <h2 class="hidden-heading">.</h2>
         <p class="tooltip-section__text">
           Следует отметить, что <br>
           социально-экономическое развитие <br>
